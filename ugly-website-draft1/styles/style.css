@@ -1,13 +1,91 @@
 body {
-  color: green;
+  background-image: url(https://github.com/mariabuitsan/assignment_2/blob/main/ugly-website-draft1/assets/img/moverimagen.jpg?raw=true);
+  background-size: 100%;
 }
-
+p {
+  text-align: center;
+  color: chartreuse;
+  font-size: xx-large;
+}
 h1 {
+  text-align: left;
   color: blueviolet;
-  font-family: monospace;
-  size: ;
+  font-family: arial;
+  font-size:larger;
 }
 h2 {
+  text-align: right;
   color: red;
   font-family:monospace;
+  font-size: x-large;
+}
+h3 {
+  text-align: end;
+  color: yellow;
+  border-style: groove;
+  border-width: 5px;
+  border-color: black;
+  font-size: 100px;
+}
+h4 {
+  text-align:unset;
+  color: fuchsia;
+  border-style: double;
+  border-width: 10px;
+  border-color: black;
+  font-size: larger;
+  position: relative;
+}
+h5{
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  position: sticky;
+}
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  border-color: black;
+  width: 40%;
+  height: 40%;
+  overflow: visible;
+}
+.unique1{
+  background-image: url(https://github.com/mariabuitsan/assignment_2/blob/main/ugly-website-draft1/assets/img/moverimagen.jpg?raw=true);
+  background-size: 100%;
+  float: left;
+  padding: 15px;
+  height: 70%;
+  width: 80%;
+}
+#adelante{
+  background-image: url(https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg);
+  background-size: 25%;
+  align-content: space-between;
+  width: 250px;
+  height: 550px;
+  padding-left: 30%;
+  float:right;
+  text-overflow: ellipsis;
+  font-size: 100%;
+  color: whitesmoke;
+}
+.segment2{
+  background-image: url(https://github.com/mariabuitsan/assignment_2/blob/main/ugly-website-draft1/assets/img/moverimagen.jpg?raw=true);
+  background-size: 90px;
+  float:initial;
+  padding: 30px;
+  padding-bottom: 10px;
+  height: 10%;
+  width: 40%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row {
+  display: table;
+  clear: both;
 }
