@@ -11,10 +11,3 @@ h2 {
   color: red;
   font-family:monospace;
 }
-.mover {
-  color: black;
-  font-family: monospace;
-  width: max-content;
-  border-color: black;
-  border-radius: 100px;
-}
